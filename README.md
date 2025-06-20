@@ -1,67 +1,68 @@
-## 🟢 Blinkit Sales Dashboard (Power BI)
-An interactive Power BI dashboard that visualizes Blinkit's retail sales data across India, offering insights into sales distribution by outlet type, location, item category, and fat content segmentation.
+## Blinkit Sales Performance Dashboard
+This Power BI dashboard provides an interactive analysis of Blinkit's retail sales data across India, enabling stakeholders to visualize sales distribution by outlet characteristics, product categories, and regional performance. The solution facilitates data-driven decisions for inventory optimization, outlet expansion, and customer experience enhancement.
 
-## 📝 Short Description
-This project leverages Power BI to explore and present key metrics related to Blinkit’s grocery and supermarket performance. It provides interactive analysis by outlet size, tier, item type, and fat content, helping blinkit to monitor sales trends, average ratings, and item visibility for informed business decisions.
+## Technologies used
+Power BI: Primary platform for data modeling, visualization, and dashboard development
 
-## ⚙️ Tech Stack
-📊 Power BI – Core tool for data modeling and dashboard visualization
-📁 File Formats – .pbix (Power BI file), .png for dashboard snapshots
+Advanced Excel: Used for comprehensive data cleaning and preprocessing
 
-## 🌟 Features / Highlights
+File Formats: .pbix (Power BI project files), .png (dashboard snapshots)
 
-### 🛠️ Business Problem
-Blinkit operates across various cities with multiple outlet formats and item categories. However, understanding which items, outlet types, and regions drive the most sales and customer satisfaction can be challenging. Without such insights, optimizing inventory, store placement, and product assortment becomes inefficient.
+## Business Context
+Blinkit operates diverse retail formats across multiple cities, facing challenges in identifying high-performing product categories, outlet types, and regional sales drivers. Without granular insights, optimizing inventory allocation, store placement strategies, and product assortment efficiency remains suboptimal.
 
-### 🎯 Goal of the Project
-To develop a visually rich, interactive dashboard that helps Blinkit stakeholders:
+## Project Objectives
+Develop an interactive analytical tool to:
 
-Identify top-performing items and outlets
+Identify top-performing items and outlet locations
 
-Analyze sales patterns across outlet size and tier
+Analyze sales patterns by outlet size and city tier
 
-Understand the impact of fat content on sales
+Evaluate fat content's impact on product performance
 
-Improve decision-making with performance metrics by item type, outlet size, and region
+Enhance decision-making through regional and category-level metrics
 
-## 📈 Key KPIs & Performance Insights
 
-💰 Total Revenue Generated: Achieved a significant milestone of $1.20M in total sales, showcasing strong demand across product categories.
+## Key Performance Indicators
 
-📦 Product Diversity: Over 8,500 unique items sold, indicating a well-distributed inventory mix catering to diverse customer preferences.
+| Metric                   | Value                                 | Business Insight                                 |
+|--------------------------|---------------------------------------|--------------------------------------------------|
+| Total Revenue            | $1.20M                                | Strong cross-category demand                     |
+| Product Diversity        | 8,500+ items                          | Balanced inventory distribution                  |
+| Avg. Sales per Item      | $141                                  | Healthy per-product performance                  |
+| Customer Satisfaction    | 3.9 avg rating                        | High service quality                             |
+| Top Tier (Tier 3)        | $472.13K                              | High growth in emerging urban markets            |
+| Leading Outlet Type      | Supermarket Type 1 ($787.55K)         | Optimal revenue/item variety                     |
+| Fat Content Performance  | Regular: $776.32K<br>Low-fat: $425.36K| Guides product stocking strategy                 |
+| Peak Expansion           | 2018 ($205K new outlets)              | Strategic growth phase                           |
 
-💲 Average Sales per Item: Maintained a healthy average sales value of $141, highlighting strong per-product performance.
 
-🌟 Customer Satisfaction: Recorded an impressive average rating of 3.9, reflecting positive customer feedback and service quality.
+## Dashboard Features
+ Dynamic Filters: Outlet location type, size, and item category selectors
 
-🏙️ Top Performing Location Tier: Tier 3 outlets led the sales with $472.13K, demonstrating high growth potential in emerging urban areas.
+## Visual Analytics:
+ Donut charts: Sales distribution by fat content
+ Bar graphs: Top-selling categories (Fruits, Snacks, Household items)
+ Line charts: Sales growth trends
+Performance Tables: Average sales, item visibility, and ratings by outlet type
 
-🏬 Leading Outlet Type: Supermarket Type 1 dominated with $787.55K in sales, proving its effectiveness in revenue generation and item variety.
+## Business Impact
+ Expansion Strategy: Identifies high-performing regions (Tier 3 dominance) and optimal outlet sizes (medium=$507.90K)
 
-🥗 Fat Content Analysis: Products with Regular fat content outperformed with $776.32K in sales compared to $425.36K from low-fat items—guiding product stocking decisions.
+ Inventory Optimization: Guides category-level stocking (top sellers: Fruits/Snacks/Household) and fat-content preferences
 
-🛒 Top-Selling Categories: Fruits, Snacks, and Household items emerged as bestsellers, each generating up to $0.18M, revealing customer buying trends.
+ Customer Experience: Tracks satisfaction metrics (3.9 avg rating) across outlets
 
-📊 Sales Growth Trend: Peak establishment activity noted in 2018 with $205K in new outlets, indicating a strategic expansion phase.
+Strategic Decisions: Enables data-backed choices on product assortment and outlet placement
 
-🔍 Outlet Size Impact: Medium-sized outlets contributed the most with $507.90K in sales, reinforcing the balance between footprint and profitability.
+## Implementation Highlights
+ Data Pipeline: Leveraged Advanced Excel for robust data cleaning before Power BI integration
 
-## 📊 Interactive Features
+ Visual Hierarchy: Prioritized KPIs through spatial grouping and color-coded metrics
 
-Filter Panel: Choose outlet location type, outlet size, and item type
+ Interactive Design: Context-aware visual updates based on filter selections
 
-Dynamic Visuals: Donut charts, bar graphs, and line charts update based on filter selection
+This solution transforms raw sales data into actionable insights, directly supporting Blinkit's operational efficiency and strategic growth objectives.
 
-Performance Tables: Highlight average sales, item visibility, and ratings per outlet type
-
-## 💼 Business Impact & Insights
-
-Helps identify high-performing regions and store types for expansion
-
-Enables inventory optimization based on item-level sales and fat content demand
-
-Supports better customer satisfaction tracking via average ratings
-
-Enhances strategic decisions with detailed sales breakdowns by outlet and item types.
 
 preview : ![Dashboard Preview](https://github.com/Akmal-s/Power-BI-Blinkit-Project/blob/main/Blinkit_power_BI_project.png)
